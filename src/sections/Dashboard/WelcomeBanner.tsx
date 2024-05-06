@@ -24,7 +24,7 @@ const Buttons = styled.div`
     padding: 10px;
     background: #ffffffdf;
     transition: background .2s ease;
-     color: white;
+     color: black;
     cursor: pointer;
     &:hover {
       background: white;
@@ -36,7 +36,7 @@ const Welcome = styled.div`
   background: url('banner.jpg') no-repeat center center;
   background-size: cover;
   border-radius: 10px;
-  color: white;
+  color: black;
   position: relative;
   display: flex;
   flex-direction: column; // Changed to column to stack elements vertically

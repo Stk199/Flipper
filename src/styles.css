@@ -3,9 +3,9 @@
 }
 
 :root {
-  --background-color: #0b0b0e;
-  --text-color: #ffffff;
-  --gamba-ui-primary-color: #9564ff;
+  --box-sizing: border-box;
+  --background-image: url('https://image.noelshack.com/fichiers/2024/19/1/1715032659-bg.jpg');
+  --background-size: cover;
 
   --gamba-ui-border-radius: 10px;
 

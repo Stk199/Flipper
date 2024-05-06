@@ -33,14 +33,12 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
  * For private pools, add the creator of the Liquidity Pool as a second argument
  */
 export const POOLS = [
+  // FLIP:
+  lp('45P9CyhMSnu9oqE3bP77V5Y6sSRVxg3BfwMJeDBPLeiJ'),
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
-  // USDC:
-  lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
   // Fake token:
   lp(FAKE_TOKEN_MINT),
-  // Wormhole:
-  lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
 ]
 
 // The default token to be selected

@@ -60,9 +60,9 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
   },
   {
     mint: new PublicKey('45P9CyhMSnu9oqE3bP77V5Y6sSRVxg3BfwMJeDBPLeiJ'),
-    name: 'W',
+    name: 'F',
     symbol: 'FLIP',
-    image: 'https://wormhole.com/token.png',
+    image: 'https://image.noelshack.com/fichiers/2024/19/1/1715025866-heads.png',
     baseWager: 1e6,
     decimals: 6,
     usdPrice: 0,

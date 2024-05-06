@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: var(--box-sizing, border-box);
 }
 
 :root {
@@ -21,6 +21,12 @@
   --gamba-ui-input-color: #ffffff;
   --gamba-ui-input-background-hover: #11111d;
 }
+
+html {
+  background-image: var(--background-image);
+  background-size: var(--background-size);
+}
+
 
 body, input, button, textarea, pre {
   font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;

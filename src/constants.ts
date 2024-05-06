@@ -35,8 +35,6 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
 export const POOLS = [
   // FLIP:
   lp('45P9CyhMSnu9oqE3bP77V5Y6sSRVxg3BfwMJeDBPLeiJ'),
-  // SOL:
-  lp('So11111111111111111111111111111111111111112'),
   // Fake token:
   lp(FAKE_TOKEN_MINT),
 ]

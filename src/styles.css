@@ -23,6 +23,12 @@
 }
 
 html {
+  background: var(--background-gradient);
+  background-size: var(--background-size);
+}
+
+
+html {
   background-image: var(--background-gradient);
   background-size: var(--background-size);
 }

@@ -52,18 +52,15 @@ export function WelcomeBanner() {
     <div> {/* Wrapper div to contain both components */}
       <Welcome>
         <div>
-          <h1>Welcome to Frogs on Gamble 👋</h1>
+          <h1>Welcome to Flipper on Gamble 👋</h1>
           <p>
             A fair, simple, and decentralized casino on Solana.
           </p>
         </div>
       </Welcome>
       <Buttons>
-        <button onClick={() => window.open('https://twitter.com/frogsongamble', '_blank')}>
-          🐸 Follow us on Twitter
-        </button>
-        <button onClick={() => window.open('https://discord.gg/VPWMksvQ', '_blank')}>
-          💬 Join Discord
+        <button onClick={() => window.open('https://twitter.com/Flippercoinsol', '_blank')}>
+          Follow us on Twitter
         </button>
       </Buttons>
     </div>

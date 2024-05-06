@@ -63,8 +63,8 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'F',
     symbol: 'FLIP',
     image: 'https://image.noelshack.com/fichiers/2024/19/1/1715025866-heads.png',
-    baseWager: 1e6,
-    decimals: 6,
+    baseWager: 1e9,
+    decimals: 9,
     usdPrice: 0,
   },
 ]

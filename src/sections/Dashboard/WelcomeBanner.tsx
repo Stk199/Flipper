@@ -38,6 +38,7 @@ const Welcome = styled.div`
   border-radius: 10px;
   position: relative;
   display: flex;
+  color: black;
   flex-direction: column; // Changed to column to stack elements vertically
   align-items: center; // Centering content horizontally
   justify-content: center;

@@ -59,9 +59,9 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     usdPrice: 0,
   },
   {
-    mint: new PublicKey('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
+    mint: new PublicKey('45P9CyhMSnu9oqE3bP77V5Y6sSRVxg3BfwMJeDBPLeiJ'),
     name: 'W',
-    symbol: 'Wormhole',
+    symbol: 'FLIP',
     image: 'https://wormhole.com/token.png',
     baseWager: 1e6,
     decimals: 6,
